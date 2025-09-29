@@ -2,8 +2,12 @@ Flask
 Flask_Cors
 matplotlib
 numpy
+Pillow
 opencv_python_headless
 scikit_image
+einops
+timm
+basicsr==1.4.2
 # torch
 # torchvision
 # Instead of including PyTorch in this file, 
