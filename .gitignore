@@ -1,4 +1,25 @@
-.venv/
-.venv/
+# Python
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Data sementara
 manga/
+*.cache
+*.tmp
+
+# Model checkpoints (optional kalau kamu pakai LFS)
+*.pth
+*.pt
+*.ckpt
