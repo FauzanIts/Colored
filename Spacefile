@@ -1,0 +1,8 @@
+app = "colored"
+
+[build]
+builder = "heroku/buildpacks:20"
+buildCommand = "pip install -r requirements.txt"
+
+[start]
+command = "gunicorn app-stream:app --bind 0.0.0.0:${PORT}"
